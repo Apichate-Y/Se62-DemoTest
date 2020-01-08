@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+	<title>Test GitHub Login</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Login Success</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://www.google.co.th/<datalist><option>https://www.google.co.th/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=q<datalist><option>name=q</option><option>//input[@name='q']</option><option>//form[@id='tsf']/div[2]/div/div/div/div[2]/input</option><option>//div[2]/input</option><option>css=input[name="q"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=q<datalist><option>name=q</option><option>//input[@name='q']</option><option>//form[@id='tsf']/div[2]/div/div/div/div[2]/input</option><option>//div[2]/input</option><option>css=input[name="q"]</option></datalist></td><td>github</td>
+</tr>
+<tr><td>click</td><td>name=btnK<datalist><option>name=btnK</option><option>//input[@name='btnK']</option><option>//form[@id='tsf']/div[2]/div/div[2]/div[2]/div[2]/center/input</option><option>//center/input</option><option>css=input[name="btnK"]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertText</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)=concat('The world', "'", 's leading software development platform · GitHub')])[1]/following::cite[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)=concat('The world', "'", 's leading software development platform · GitHub')])[1]/following::cite[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ผลการค้นหาเว็บพร้อมไซต์ลิงก์'])[1]/following::cite[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='แคช'])[1]/preceding::cite[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ใกล้เคียง'])[1]/preceding::cite[1]</option><option>xpath=//*/text()[normalize-space(.)='https://github.com']/parent::*</option><option>//div[@id='rso']/div/div/div/div/div/div/a/div/cite</option><option>//cite</option><option>css=cite.iUh30</option></datalist></td><td>https://github.com</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ผลการค้นหาเว็บพร้อมไซต์ลิงก์'])[1]/following::h3[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ผลการค้นหาเว็บพร้อมไซต์ลิงก์'])[1]/following::h3[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ผลการค้นหา'])[1]/following::h3[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='https://github.com'])[1]/preceding::h3[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='แคช'])[1]/preceding::h3[1]</option><option>//div[@id='rso']/div/div/div/div/div/div/a/h3</option><option>//h3</option><option>css=h3.LC20lb</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>css=svg.octicon.octicon-three-bars.text-white &gt; path<datalist><option>css=svg.octicon.octicon-three-bars.text-white &gt; path</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Sign in<datalist><option>link=Sign in</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='↵'])[6]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='All GitHub'])[3]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sign&amp;nbsp;up'])[2]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Built for developers'])[1]/preceding::a[2]</option><option>xpath=//*/text()[normalize-space(.)='Sign&amp;nbsp;in']/parent::*</option><option>//a[contains(text(),'Sign&amp;nbsp;in')]</option><option>//a[contains(@href, '/login')]</option><option>//div[2]/div[2]/a</option><option>css=a.HeaderMenu-link.no-underline.mr-3</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=login_field<datalist><option>id=login_field</option><option>name=login</option><option>//input[@id='login_field']</option><option>//div[@id='login']/form/div[3]/input</option><option>//div[3]/input</option><option>css=#login_field</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=login_field<datalist><option>id=login_field</option><option>name=login</option><option>//input[@id='login_field']</option><option>//div[@id='login']/form/div[3]/input</option><option>//div[3]/input</option><option>css=#login_field</option></datalist></td><td>GlomGlom</td>
+</tr>
+<tr><td>click</td><td>id=password<datalist><option>id=password</option><option>name=password</option><option>//input[@id='password']</option><option>//div[@id='login']/form/div[3]/input[2]</option><option>//div[3]/input[2]</option><option>css=#password</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=password<datalist><option>id=password</option><option>name=password</option><option>//input[@id='password']</option><option>//div[@id='login']/form/div[3]/input[2]</option><option>//div[3]/input[2]</option><option>css=#password</option></datalist></td><td>$1234567Ag</td>
+</tr>
+<tr><td>click</td><td>name=commit<datalist><option>name=commit</option><option>//input[@name='commit']</option><option>//div[@id='login']/form/div[3]/input[8]</option><option>//input[8]</option><option>css=input[name="commit"]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertText</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Switch dashboard context'])[2]/preceding::span[2]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Switch dashboard context'])[2]/preceding::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='GlomGlom'])[5]/preceding::span[3]</option><option>//details[@id='account-switcher-left']/summary/span</option><option>//div[2]/div/details/summary/span</option><option>css=#account-switcher-left &gt; summary.no-underline.btn-link.text-gray-dark.text-bold.width-full &gt; span.css-truncate.css-truncate-target</option></datalist></td><td>GlomGlom</td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Login Failed</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://www.google.com/<datalist><option>https://www.google.com/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>name=q<datalist><option>name=q</option><option>//input[@name='q']</option><option>//form[@id='tsf']/div[2]/div/div/div/div[2]/input</option><option>//div[2]/input</option><option>css=input[name="q"]</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>name=q<datalist><option>name=q</option><option>//input[@name='q']</option><option>//form[@id='tsf']/div[2]/div/div/div/div[2]/input</option><option>//div[2]/input</option><option>css=input[name="q"]</option></datalist></td><td>github</td>
+</tr>
+<tr><td>click</td><td>name=btnK<datalist><option>name=btnK</option><option>//input[@name='btnK']</option><option>//form[@id='tsf']/div[2]/div/div[2]/div[2]/div[2]/center/input</option><option>//center/input</option><option>css=input[name="btnK"]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertText</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)=concat('The world', "'", 's leading software development platform · GitHub')])[1]/following::cite[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)=concat('The world', "'", 's leading software development platform · GitHub')])[1]/following::cite[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ผลการค้นหาเว็บพร้อมไซต์ลิงก์'])[1]/following::cite[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='แคช'])[1]/preceding::cite[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ใกล้เคียง'])[1]/preceding::cite[1]</option><option>xpath=//*/text()[normalize-space(.)='https://github.com']/parent::*</option><option>//div[@id='rso']/div/div/div/div/div/div/a/div/cite</option><option>//cite</option><option>css=cite.iUh30</option></datalist></td><td>https://github.com</td>
+</tr>
+<tr><td>click</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ผลการค้นหาเว็บพร้อมไซต์ลิงก์'])[1]/following::h3[1]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ผลการค้นหาเว็บพร้อมไซต์ลิงก์'])[1]/following::h3[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='ผลการค้นหา'])[1]/following::h3[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='https://github.com'])[1]/preceding::h3[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='แคช'])[1]/preceding::h3[1]</option><option>//div[@id='rso']/div/div/div/div/div/div/a/h3</option><option>//h3</option><option>css=h3.LC20lb</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>css=svg.octicon.octicon-three-bars.text-white &gt; path<datalist><option>css=svg.octicon.octicon-three-bars.text-white &gt; path</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>link=Sign in<datalist><option>link=Sign in</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='↵'])[6]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='All GitHub'])[3]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Sign&amp;nbsp;up'])[2]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Built for developers'])[1]/preceding::a[2]</option><option>xpath=//*/text()[normalize-space(.)='Sign&amp;nbsp;in']/parent::*</option><option>//a[contains(text(),'Sign&amp;nbsp;in')]</option><option>//a[contains(@href, '/login')]</option><option>//div[2]/div[2]/a</option><option>css=a.HeaderMenu-link.no-underline.mr-3</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=login_field<datalist><option>id=login_field</option><option>name=login</option><option>//input[@id='login_field']</option><option>//div[@id='login']/form/div[3]/input</option><option>//div[3]/input</option><option>css=#login_field</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=login_field<datalist><option>id=login_field</option><option>name=login</option><option>//input[@id='login_field']</option><option>//div[@id='login']/form/div[3]/input</option><option>//div[3]/input</option><option>css=#login_field</option></datalist></td><td>GlomGlom</td>
+</tr>
+<tr><td>click</td><td>id=password<datalist><option>id=password</option><option>name=password</option><option>//input[@id='password']</option><option>//div[@id='login']/form/div[3]/input[2]</option><option>//div[3]/input[2]</option><option>css=#password</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=password<datalist><option>id=password</option><option>name=password</option><option>//input[@id='password']</option><option>//div[@id='login']/form/div[3]/input[2]</option><option>//div[3]/input[2]</option><option>css=#password</option></datalist></td><td>$1234567AA</td>
+</tr>
+<tr><td>click</td><td>name=commit<datalist><option>name=commit</option><option>//input[@name='commit']</option><option>//div[@id='login']/form/div[3]/input[8]</option><option>//input[8]</option><option>css=input[name="commit"]</option></datalist></td><td></td>
+</tr>
+<tr><td>assertText</td><td>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Switch dashboard context'])[2]/preceding::span[2]<datalist><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Switch dashboard context'])[2]/preceding::span[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='GlomGlom'])[5]/preceding::span[3]</option><option>//details[@id='account-switcher-left']/summary/span</option><option>//div[2]/div/details/summary/span</option><option>css=#account-switcher-left &gt; summary.no-underline.btn-link.text-gray-dark.text-bold.width-full &gt; span.css-truncate.css-truncate-target</option></datalist></td><td>GlomGlom</td>
+</tr>
+</tbody></table>
+</body>
+</html>
